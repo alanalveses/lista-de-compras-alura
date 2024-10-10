@@ -52,3 +52,16 @@ const listaItens = {
 }
 
 listaItens.mostrarItens()
+
+splice
+
+        listaDeItens.splice(valorDoElemento,0,{valor: "Limão", checar: false})
+
+        Índice de início (valorDoElemento): O primeiro parâmetro indica o índice a partir do qual a modificação será feita no array. Neste caso, é o valor de valorDoElemento, que representa a posição onde você quer fazer a alteração.
+        
+        Número de itens a remover: O segundo parâmetro indica quantos elementos devem ser removidos a partir do índice especificado. Se o valor for 0, nenhum item será removido, e o novo item será apenas inserido no índice fornecido.
+        
+        Itens a adicionar: O terceiro parâmetro (e os subsequentes, se houver) são os elementos que você deseja adicionar ao array a partir da posição indicada pelo primeiro parâmetro. No exemplo, {valor: "Limão", checar: false} é o objeto que será inserido no array.
+        
+        o 0 faz ele inserir um objeto, no caso o limão,
+        o 1 faz ele substituir 1 objeto pelo 3 argumento
